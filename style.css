@@ -1,0 +1,51 @@
+h1{
+    font-family: 'Comic neue', sans-serif;
+}
+
+.addTask{
+    /* background-color: grey; */
+    margin: 0;
+}
+
+.list-group input:disabled{
+    /* background-color: blue; */
+    background:none;
+    border: none;
+    width: 95%;
+    
+}
+
+/* .list-group textarea:disabled{
+    resize: none;
+    background-color: transparent;
+    border: none;
+} */
+
+
+.editBtn {
+    margin-right: 5px;
+}
+
+.list-group input{
+    width: 95%;
+    /* background-color: yellow; */
+    border: none;
+    /* background-color: grey; */
+}
+
+.update-control{
+    /* background-color: blue; */
+    display: none;
+    margin-top:15px;
+}
+
+.input-control {
+    display:flex;
+}
+
+/* Mobile specific styling */
+@media (max-width: 600px) {
+    .addT {
+        margin-top: 10px;
+    }
+}
